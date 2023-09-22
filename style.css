@@ -1,0 +1,89 @@
+/* Custom CSS for the travel blog */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://demo.wenthemes.com/wen-travel-dark-pro/wp-content/themes/wen-travel-pro/images/header-image.jpg');
+    background-repeat: no-repeat;    
+    background-size: cover;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+#Home {
+    background-color: rgb(72, 165, 72);
+    height: 400px;
+    width: 100vw;
+}
+
+.container .mt-5 {
+    height: 400px;
+    width: 400px;
+}
+
+.image{
+    padding-bottom: 200px;
+    padding-right: 20px;
+}
+
+.img-fluid {
+    padding-right: 10px;
+    height: 200px;
+    width: 400px;
+}
+
+.text {
+    font-size: larger;
+    font-style: normal;
+    font-weight: bolder;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.text .first-text{
+    font-size: larger;
+    font-style: normal;
+    font-weight: bolder;
+    /* margin-top: 100px; */
+    padding-top: 100px;
+}
+
+/* .container-home .text{
+    position: relative;
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-home .text.first-text {
+    color: antiquewhite;
+}
+
+.text.second-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+} */
