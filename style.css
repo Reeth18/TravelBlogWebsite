@@ -1,5 +1,5 @@
 /* Custom CSS for the travel blog */
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -11,8 +11,8 @@ body {
     align-items: center;
     justify-content: center;
     background-image: url('https://demo.wenthemes.com/wen-travel-dark-pro/wp-content/themes/wen-travel-pro/images/header-image.jpg');
-    background-repeat: no-repeat;    
-    background-size: 600vh;
+    background-repeat: no-repeat;
+    background-size: 800vh;
 }
 
 
@@ -29,7 +29,7 @@ body {
     width: 400px;
 } */
 
-.image{
+.image {
     padding-bottom: 200px;
     padding-right: 20px;
     margin-left: 150px;
@@ -62,7 +62,7 @@ body {
 
 /* Destinations Section */
 #destinations {
-    height: auto;
+    height: 1100px;
     width: auto;
 }
 
@@ -74,13 +74,13 @@ body {
  opacity: 0.2;
 } */
 
-.card{
+.card {
     height: auto;
     margin: 15px;
     background-color: rgb(230, 234, 234);
 }
 
-.col-md-6{
+.col-md-6 {
     height: 500px;
     border: 2px;
 }
@@ -113,37 +113,100 @@ body {
     color: #fff;
     padding: 20px 0;
 } */
- /* CSS for the footer */
- .footer {
+
+/* About Section */
+#about {
+    height: min-content;
+    width: auto;
+
+}
+
+#about h2 {
+    font-size: 25px;
+    /* Heading font size */
+    color: #333;
+    /* Heading text color */
+}
+
+#about p {
+    font-size: 25px;
+    /* Paragraph font size */
+    color: #3d0d0d;
+    /* Paragraph text color */
+}
+
+#about ul {
+    list-style: none;
+    /* Remove default list styles */
+    padding: 0;
+    /* Remove default list padding */
+}
+
+#about ul li {
+    font-size: 36px;
+    /* List item font size */
+    color: rgba(0, 0, 0, 0.851);
+    /* List item text color */
+    margin-bottom: 10px;
+    /* Spacing between list items */
+}
+
+#about .row{
+    height: auto;
+}
+/* Icon Styles */
+.icons {
+    margin-bottom: 20px;
+    /* padding-bottom: 500px; */
+    /* Margin to push icons up */
+}
+
+
+.nav-link i {
+    font-size: 50px;
+    /* Initial icon size */
+    transition: font-size 0.2s ease-in-out;
+    /* Transition for smooth size change */
+}
+
+.nav-link:hover i {
+    opacity: 0.7;
+    font-size: 2rem;
+    /* Increased icon size on hover */
+}
+
+
+/* CSS for the footer */
+.footer {
     margin-top: 800px;
-     background-color: #141129;
-     /* position: fixed; */
-     width: 100%;
-     bottom: 0;
+    background-color: #141129;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
 
- }
+}
 
- #backToTop {
-     background-color: #d3701e;
-     /* color: rgb(0, 0, 0); */
-     /* display: block; */
-     width: 100%;
- }
+#backToTop {
+    background-color: #d3701e;
+    /* color: rgb(0, 0, 0); */
+    /* display: block; */
+    width: 100%;
+}
 
- .backToTop a:hover {
-     background-color: #ffffff;
- }
+.backToTop a:hover {
+    background-color: #ffffff;
+}
 
- .footer p {
-     margin: 0;
-     font-size: 14px;
- }
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
 
- .footer a {
-     color: #000000;
-     text-decoration: none;
- }
+.footer a {
+    color: #000000;
+    text-decoration: none;
+}
 
- .footer a:hover {
-     text-decoration: underline;
- }
+.footer a:hover {
+    text-decoration: underline;
+}
